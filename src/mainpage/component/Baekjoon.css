@@ -1,0 +1,84 @@
+.baekjoon-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.calculator {
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.calculator-display {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.calculator-buttons button {
+    width: 22%;
+    margin: 5px;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.todo-list {
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.todo-input input {
+    width: calc(100% - 60px);
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.todo-input button {
+    height: 40px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-list ul {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-list li button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
